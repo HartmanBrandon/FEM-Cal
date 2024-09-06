@@ -1,0 +1,26 @@
+/*
+
+- black: #000
+- white: #fff
+- light grey: #d8d9db
+- buttons on hover: #ebebeb
+- buttons active state: #bbbcbe
+- function button: #df974c
+- function buttons on hover: #dfb07e
+- function button active state: #dd8d37
+
+width of cal wrapper is 400px
+
+
+*/
+
+.wrapper {
+    width: 400px;
+    border: 3px solid red;
+}
+.result-section{
+    background-color: black;
+    /* display: flex;
+    justify-content: flex-end; */
+
+}
