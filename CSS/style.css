@@ -1,46 +1,22 @@
-/*
+html {
+    box-sizing: border-box;
+}
 
-- black: #000
-- white: #fff
-- light grey: #d8d9db
-- buttons on hover: #ebebeb
-- buttons active state: #bbbcbe
-- function button: #df974c
-- function buttons on hover: #dfb07e
-- function button active state: #dd8d37
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
-width of cal wrapper is 400px
-
-
-*/
-* {
+body {
     padding: 0;
     margin: 0;
-    font-size: 1.3rem;
 }
+
 .wrapper {
     width: 400px;
-    border: 3px solid red;
+    border: 3px solid;
+}
 
-}
-.result{
-    background-color: black;
-    color: #d8d9db;
-    text-align: right;
-    width:100%;
-    padding: .5rem 0;
-    border: none;
-}
-.num-btn,
-.orange-btn,
-.clear-btn,
-.del-btn {
-    background-color: #ebebeb;
-    padding: 1rem;
-    border-radius: none;
+.btn-row {
+    border: 3px solid blue;
 
-}
-.orange-btn {
-    background-color: #df974c;
-    color: #fff;
 }
