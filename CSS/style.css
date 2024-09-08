@@ -41,5 +41,22 @@ body {
 }
 
 .calc-btn:hover{
+    background-color: #ebebeb;
+}
+
+.calc-btn:active{
     background-color: #bbbcbe;
+}
+.double {
+    flex-basis: 49.7%;
+}
+.triple {
+    flex-basis: 74.8%;
+}
+.calc-btn:last-child {
+    background-color: #df974c;
+    color: white;
+}
+.calc-btn:last-child:hover {
+    background-color: #8fb07e;
 }
