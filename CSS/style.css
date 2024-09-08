@@ -13,10 +13,33 @@ body {
 
 .wrapper {
     width: 400px;
-    border: 3px solid;
+    background-color: black;
+    color: white;
 }
 
 .btn-row {
-    border: 3px solid blue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
 
+.screen {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    padding: 20px 5px;
+}
+
+.calc-btn {
+    background-color: #d8d9db;
+    color: black;
+    border: none;
+    font-size: 2rem;
+    height: 100px;
+    flex-basis: 24.5%;
+}
+
+.calc-btn:hover{
+    background-color: #bbbcbe;
 }
